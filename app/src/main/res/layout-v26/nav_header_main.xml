@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  * Kidzz
+  * https://github.com/quintuslabs/Kidzz
+  * Created on 25-feb-2019.
+  * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="?android:attr/autofilledHighlight"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:layout_width="122dp"
+        android:layout_height="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="@dimen/layout_margin_10dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="56dp"
+        android:text="Welcome To ZAKIDO App"
+        android:textColor="@color/circular_progress_default_background"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
